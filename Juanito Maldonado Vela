@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebra Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Algebra Solver</h1>
+        <p>Made by Juan Maldonado Vela</p>
+        <input type="text" id="equation" placeholder="Enter equation e.g. x^2 + 3x - 4 = 0">
+        <button onclick="solveEquation()">Solve</button>
+        <div id="solution"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
